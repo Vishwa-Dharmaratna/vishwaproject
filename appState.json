@@ -60,7 +60,7 @@
             },
             {
               "Effect": "Allow",
-              "Resource": "arn:aws:s3:::hiru.test01/*",
+              "Resource": "arn:aws:s3:::vishwa96/*",
               "Action": [
                 "s3:GetObject"
               ]
@@ -103,7 +103,13 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "version": "2.566.0",
+          "language": "javascript"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -113,7 +119,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1573111259486
+    "lastSave": 1573111500395
   },
   "VCS_STATE": {
     "provider": "GitHub",
